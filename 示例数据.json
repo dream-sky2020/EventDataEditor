@@ -1,0 +1,88 @@
+[
+  {
+    "EventId": "96d65eff-cb01-4aaf-bed8-9a64ddfcbda2",
+    "EventName": "新事件0",
+    "EventText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，EventText将会替换该文本框内的内容，同样，按下修改事件名，EventName也会替换为旁边文本框的内容",
+    "Options": []
+  },
+  {
+    "EventId": "a701cbe7-5920-4aee-84c1-4b81dc8d35f5",
+    "EventName": "新事件1",
+    "EventText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，EventText将会替换该文本框内的内容，同样，按下修改事件名，EventName也会替换为旁边文本框的内容",
+    "Options": []
+  },
+  {
+    "EventId": "55fd16b9-4eec-4ff3-ab8e-c4441070f2ca",
+    "EventName": "新事件2",
+    "EventText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，EventText将会替换该文本框内的内容，同样，按下修改事件名，EventName也会替换为旁边文本框的内容",
+    "Options": []
+  },
+  {
+    "EventId": "be6ac125-4988-4a60-a944-236de84c52b8",
+    "EventName": "新事件3",
+    "EventText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，EventText将会替换该文本框内的内容，同样，按下修改事件名，EventName也会替换为旁边文本框的内容",
+    "Options": []
+  },
+  {
+    "EventId": "67ccf212-44d9-4f2e-a870-3d6726535455",
+    "EventName": "登船事件",
+    "EventText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，EventText将会替换该文本框内的内容，同样，按下修改事件名，EventName也会替换为旁边文本框的内容",
+    "Options": [
+      {
+        "OptionID": "84e13974-a20e-445f-bb7c-ed3c302ed23f",
+        "OptionName": "同意",
+        "OptionText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，OptionText将会替换该文本框内的内容，同样，按下修改事件名，OptionName也会替换为旁边文本框的内容",
+        "IfComfirm": false,
+        "IfComfirmText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，IfComfirmText将会替换该文本框内的内容，按下是否确认按钮，当玩家选择选项后是否确认",
+        "Prerequisites": [],
+        "Subsequents": []
+      },
+      {
+        "OptionID": "dbdcccfd-ade5-4f1b-a03e-57c298266a3d",
+        "OptionName": "拒绝",
+        "OptionText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，OptionText将会替换该文本框内的内容，同样，按下修改事件名，OptionName也会替换为旁边文本框的内容",
+        "IfComfirm": false,
+        "IfComfirmText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，IfComfirmText将会替换该文本框内的内容，按下是否确认按钮，当玩家选择选项后是否确认",
+        "Prerequisites": [
+          {
+            "PrerequisiteID": "eef6edbc-a735-4e1b-aee7-a3dcf6e102b6",
+            "PrerequisiteName": "要求勇气",
+            "TagOrAttribute": 0,
+            "SatisfyAllOrOne": 0,
+            "RequireEntitiyType": 0,
+            "EntitiyName_IfPrerequisiteToOtherEntities": "默认实体名称",
+            "TagOrAttributeName": "惊为天人",
+            "RequireExistOrNot": 0,
+            "Bigger_IfRequirementAttribute": 0,
+            "Smaller_IfRequirementAttribute": 0
+          }
+        ],
+        "Subsequents": [
+          {
+            "SubsequentID": "32edaf7b-267a-4286-8d66-cff89f1ad950",
+            "SubsequentName": "获得财宝",
+            "SubsequentText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，SubsequentText将会替换该文本框内的内容，同样，按下修改结果名称，SubsequentName也会替换为旁边文本框的内容",
+            "SubsequentProbabilityFactor": 5,
+            "SubsequentImpacts": [
+              {
+                "SubsequentImpactTagOrAttribute": 1,
+                "SubsequentImpactEntitiyType": 0,
+                "EntitiyName_IfSubsequentImpactToOtherEntities": "默认名称",
+                "TagOrAttributeName": "财富",
+                "ImpactAttributeValue_IfSubsequentImpactAttribute": 100,
+                "AddOrRemoveTag_IfSubsequentImpactTag": 0
+              }
+            ]
+          },
+          {
+            "SubsequentID": "c0fe33d1-dd0a-4650-b7b3-573e948ce992",
+            "SubsequentName": "大败而归",
+            "SubsequentText": "将该文本删除，替换为你想要的文字，并且按下修改并保存，SubsequentText将会替换该文本框内的内容，同样，按下修改结果名称，SubsequentName也会替换为旁边文本框的内容",
+            "SubsequentProbabilityFactor": 1,
+            "SubsequentImpacts": []
+          }
+        ]
+      }
+    ]
+  }
+]
