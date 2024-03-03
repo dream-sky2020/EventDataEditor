@@ -132,7 +132,7 @@ namespace Event
             // 
             // AddNewEventData_button
             // 
-            this.AddNewEventData_button.Location = new System.Drawing.Point(118, 65);
+            this.AddNewEventData_button.Location = new System.Drawing.Point(112, 141);
             this.AddNewEventData_button.Name = "AddNewEventData_button";
             this.AddNewEventData_button.Size = new System.Drawing.Size(90, 21);
             this.AddNewEventData_button.TabIndex = 0;
@@ -145,7 +145,7 @@ namespace Event
             this.EventList_listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1});
             this.EventList_listView.HideSelection = false;
-            this.EventList_listView.Location = new System.Drawing.Point(12, 39);
+            this.EventList_listView.Location = new System.Drawing.Point(6, 115);
             this.EventList_listView.Name = "EventList_listView";
             this.EventList_listView.Size = new System.Drawing.Size(100, 478);
             this.EventList_listView.TabIndex = 1;
@@ -161,7 +161,7 @@ namespace Event
             // 
             // RemoveEventData_button
             // 
-            this.RemoveEventData_button.Location = new System.Drawing.Point(118, 38);
+            this.RemoveEventData_button.Location = new System.Drawing.Point(112, 114);
             this.RemoveEventData_button.Name = "RemoveEventData_button";
             this.RemoveEventData_button.Size = new System.Drawing.Size(90, 21);
             this.RemoveEventData_button.TabIndex = 3;
@@ -172,7 +172,7 @@ namespace Event
             // 
             // ChangeEventDataName_button
             // 
-            this.ChangeEventDataName_button.Location = new System.Drawing.Point(118, 92);
+            this.ChangeEventDataName_button.Location = new System.Drawing.Point(112, 168);
             this.ChangeEventDataName_button.Name = "ChangeEventDataName_button";
             this.ChangeEventDataName_button.Size = new System.Drawing.Size(90, 21);
             this.ChangeEventDataName_button.TabIndex = 4;
@@ -185,7 +185,7 @@ namespace Event
             this.OptionList_listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader2});
             this.OptionList_listView.HideSelection = false;
-            this.OptionList_listView.Location = new System.Drawing.Point(319, 39);
+            this.OptionList_listView.Location = new System.Drawing.Point(313, 115);
             this.OptionList_listView.Name = "OptionList_listView";
             this.OptionList_listView.Size = new System.Drawing.Size(100, 505);
             this.OptionList_listView.TabIndex = 7;
@@ -204,7 +204,7 @@ namespace Event
             this.PrerequisiteList_listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.PrerequisiteDetail});
             this.PrerequisiteList_listView.HideSelection = false;
-            this.PrerequisiteList_listView.Location = new System.Drawing.Point(626, 38);
+            this.PrerequisiteList_listView.Location = new System.Drawing.Point(620, 114);
             this.PrerequisiteList_listView.Name = "PrerequisiteList_listView";
             this.PrerequisiteList_listView.Size = new System.Drawing.Size(296, 250);
             this.PrerequisiteList_listView.TabIndex = 8;
@@ -220,7 +220,7 @@ namespace Event
             // 
             // EventName_textBox
             // 
-            this.EventName_textBox.Location = new System.Drawing.Point(214, 93);
+            this.EventName_textBox.Location = new System.Drawing.Point(208, 169);
             this.EventName_textBox.Name = "EventName_textBox";
             this.EventName_textBox.Size = new System.Drawing.Size(99, 21);
             this.EventName_textBox.TabIndex = 9;
@@ -230,7 +230,7 @@ namespace Event
             this.SubsequentList_listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.SubsequentDetail});
             this.SubsequentList_listView.HideSelection = false;
-            this.SubsequentList_listView.Location = new System.Drawing.Point(626, 321);
+            this.SubsequentList_listView.Location = new System.Drawing.Point(620, 397);
             this.SubsequentList_listView.Name = "SubsequentList_listView";
             this.SubsequentList_listView.Size = new System.Drawing.Size(200, 223);
             this.SubsequentList_listView.TabIndex = 11;
@@ -246,14 +246,14 @@ namespace Event
             // 
             // EntitiyName_textBox
             // 
-            this.EntitiyName_textBox.Location = new System.Drawing.Point(1120, 93);
+            this.EntitiyName_textBox.Location = new System.Drawing.Point(1114, 169);
             this.EntitiyName_textBox.Name = "EntitiyName_textBox";
             this.EntitiyName_textBox.Size = new System.Drawing.Size(100, 21);
             this.EntitiyName_textBox.TabIndex = 13;
             // 
             // SearchEvent_textBox
             // 
-            this.SearchEvent_textBox.Location = new System.Drawing.Point(12, 523);
+            this.SearchEvent_textBox.Location = new System.Drawing.Point(6, 599);
             this.SearchEvent_textBox.Name = "SearchEvent_textBox";
             this.SearchEvent_textBox.ReadOnly = true;
             this.SearchEvent_textBox.Size = new System.Drawing.Size(100, 21);
@@ -261,7 +261,7 @@ namespace Event
             // 
             // SearchEvent_button
             // 
-            this.SearchEvent_button.Location = new System.Drawing.Point(118, 523);
+            this.SearchEvent_button.Location = new System.Drawing.Point(112, 599);
             this.SearchEvent_button.Name = "SearchEvent_button";
             this.SearchEvent_button.Size = new System.Drawing.Size(90, 21);
             this.SearchEvent_button.TabIndex = 17;
@@ -271,14 +271,14 @@ namespace Event
             // 
             // OptionName_textBox
             // 
-            this.OptionName_textBox.Location = new System.Drawing.Point(521, 91);
+            this.OptionName_textBox.Location = new System.Drawing.Point(515, 167);
             this.OptionName_textBox.Name = "OptionName_textBox";
             this.OptionName_textBox.Size = new System.Drawing.Size(99, 21);
             this.OptionName_textBox.TabIndex = 23;
             // 
             // ChangeOptionName_button
             // 
-            this.ChangeOptionName_button.Location = new System.Drawing.Point(425, 91);
+            this.ChangeOptionName_button.Location = new System.Drawing.Point(419, 167);
             this.ChangeOptionName_button.Name = "ChangeOptionName_button";
             this.ChangeOptionName_button.Size = new System.Drawing.Size(90, 21);
             this.ChangeOptionName_button.TabIndex = 21;
@@ -288,7 +288,7 @@ namespace Event
             // 
             // RemoveOptionData_button
             // 
-            this.RemoveOptionData_button.Location = new System.Drawing.Point(425, 39);
+            this.RemoveOptionData_button.Location = new System.Drawing.Point(419, 115);
             this.RemoveOptionData_button.Name = "RemoveOptionData_button";
             this.RemoveOptionData_button.Size = new System.Drawing.Size(90, 21);
             this.RemoveOptionData_button.TabIndex = 20;
@@ -298,7 +298,7 @@ namespace Event
             // 
             // AddNewOptionData_button
             // 
-            this.AddNewOptionData_button.Location = new System.Drawing.Point(425, 64);
+            this.AddNewOptionData_button.Location = new System.Drawing.Point(419, 140);
             this.AddNewOptionData_button.Name = "AddNewOptionData_button";
             this.AddNewOptionData_button.Size = new System.Drawing.Size(90, 21);
             this.AddNewOptionData_button.TabIndex = 18;
@@ -308,7 +308,7 @@ namespace Event
             // 
             // RemovePrerequisiteData_button
             // 
-            this.RemovePrerequisiteData_button.Location = new System.Drawing.Point(928, 38);
+            this.RemovePrerequisiteData_button.Location = new System.Drawing.Point(922, 114);
             this.RemovePrerequisiteData_button.Name = "RemovePrerequisiteData_button";
             this.RemovePrerequisiteData_button.Size = new System.Drawing.Size(90, 21);
             this.RemovePrerequisiteData_button.TabIndex = 25;
@@ -319,7 +319,7 @@ namespace Event
             // IfComfirm_checkBox
             // 
             this.IfComfirm_checkBox.AutoSize = true;
-            this.IfComfirm_checkBox.Location = new System.Drawing.Point(425, 332);
+            this.IfComfirm_checkBox.Location = new System.Drawing.Point(419, 408);
             this.IfComfirm_checkBox.Name = "IfComfirm_checkBox";
             this.IfComfirm_checkBox.Size = new System.Drawing.Size(96, 16);
             this.IfComfirm_checkBox.TabIndex = 30;
@@ -330,7 +330,7 @@ namespace Event
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(118, 128);
+            this.label1.Location = new System.Drawing.Point(112, 204);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 38;
@@ -339,7 +339,7 @@ namespace Event
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(425, 128);
+            this.label2.Location = new System.Drawing.Point(419, 204);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 39;
@@ -348,7 +348,7 @@ namespace Event
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(425, 359);
+            this.label3.Location = new System.Drawing.Point(419, 435);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 40;
@@ -381,7 +381,7 @@ namespace Event
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1127, 78);
+            this.label4.Location = new System.Drawing.Point(1121, 154);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 12);
             this.label4.TabIndex = 44;
@@ -391,7 +391,7 @@ namespace Event
             // 
             this.PrerequisiteToPlayerCharacterOrOtherEntities_groupBox.Controls.Add(this.ToPlayerCharacter_radioButton);
             this.PrerequisiteToPlayerCharacterOrOtherEntities_groupBox.Controls.Add(this.ToOtherEntities_radioButton);
-            this.PrerequisiteToPlayerCharacterOrOtherEntities_groupBox.Location = new System.Drawing.Point(1120, 116);
+            this.PrerequisiteToPlayerCharacterOrOtherEntities_groupBox.Location = new System.Drawing.Point(1114, 192);
             this.PrerequisiteToPlayerCharacterOrOtherEntities_groupBox.Name = "PrerequisiteToPlayerCharacterOrOtherEntities_groupBox";
             this.PrerequisiteToPlayerCharacterOrOtherEntities_groupBox.Size = new System.Drawing.Size(186, 68);
             this.PrerequisiteToPlayerCharacterOrOtherEntities_groupBox.TabIndex = 45;
@@ -400,14 +400,14 @@ namespace Event
             // 
             // TagOrAttributeName_textBox
             // 
-            this.TagOrAttributeName_textBox.Location = new System.Drawing.Point(1024, 193);
+            this.TagOrAttributeName_textBox.Location = new System.Drawing.Point(1018, 269);
             this.TagOrAttributeName_textBox.Name = "TagOrAttributeName_textBox";
             this.TagOrAttributeName_textBox.Size = new System.Drawing.Size(90, 21);
             this.TagOrAttributeName_textBox.TabIndex = 54;
             // 
             // ChangeAndSaveRequirementTagOrAttributeName_button
             // 
-            this.ChangeAndSaveRequirementTagOrAttributeName_button.Location = new System.Drawing.Point(928, 193);
+            this.ChangeAndSaveRequirementTagOrAttributeName_button.Location = new System.Drawing.Point(922, 269);
             this.ChangeAndSaveRequirementTagOrAttributeName_button.Name = "ChangeAndSaveRequirementTagOrAttributeName_button";
             this.ChangeAndSaveRequirementTagOrAttributeName_button.Size = new System.Drawing.Size(90, 21);
             this.ChangeAndSaveRequirementTagOrAttributeName_button.TabIndex = 53;
@@ -417,7 +417,7 @@ namespace Event
             // 
             // AddNewRequirementAttribute_button
             // 
-            this.AddNewRequirementAttribute_button.Location = new System.Drawing.Point(1024, 92);
+            this.AddNewRequirementAttribute_button.Location = new System.Drawing.Point(1018, 168);
             this.AddNewRequirementAttribute_button.Name = "AddNewRequirementAttribute_button";
             this.AddNewRequirementAttribute_button.Size = new System.Drawing.Size(90, 21);
             this.AddNewRequirementAttribute_button.TabIndex = 51;
@@ -427,7 +427,7 @@ namespace Event
             // 
             // AddNewRequirementTag_button
             // 
-            this.AddNewRequirementTag_button.Location = new System.Drawing.Point(928, 92);
+            this.AddNewRequirementTag_button.Location = new System.Drawing.Point(922, 168);
             this.AddNewRequirementTag_button.Name = "AddNewRequirementTag_button";
             this.AddNewRequirementTag_button.Size = new System.Drawing.Size(90, 21);
             this.AddNewRequirementTag_button.TabIndex = 56;
@@ -439,7 +439,7 @@ namespace Event
             // 
             this.RequirementTagType_groupBox.Controls.Add(this.NeedExist_radioButton);
             this.RequirementTagType_groupBox.Controls.Add(this.NeedNotExist_radioButton);
-            this.RequirementTagType_groupBox.Location = new System.Drawing.Point(928, 220);
+            this.RequirementTagType_groupBox.Location = new System.Drawing.Point(922, 296);
             this.RequirementTagType_groupBox.Name = "RequirementTagType_groupBox";
             this.RequirementTagType_groupBox.Size = new System.Drawing.Size(186, 68);
             this.RequirementTagType_groupBox.TabIndex = 70;
@@ -474,7 +474,7 @@ namespace Event
             // 
             this.PrerequisiteSatisfyAllOrOne_groupBox.Controls.Add(this.SatisfyAll_radioButton);
             this.PrerequisiteSatisfyAllOrOne_groupBox.Controls.Add(this.SatisfyOne_radioButton);
-            this.PrerequisiteSatisfyAllOrOne_groupBox.Location = new System.Drawing.Point(928, 116);
+            this.PrerequisiteSatisfyAllOrOne_groupBox.Location = new System.Drawing.Point(922, 192);
             this.PrerequisiteSatisfyAllOrOne_groupBox.Name = "PrerequisiteSatisfyAllOrOne_groupBox";
             this.PrerequisiteSatisfyAllOrOne_groupBox.Size = new System.Drawing.Size(186, 68);
             this.PrerequisiteSatisfyAllOrOne_groupBox.TabIndex = 46;
@@ -507,7 +507,7 @@ namespace Event
             // 
             // AddImpactTag_button
             // 
-            this.AddImpactTag_button.Location = new System.Drawing.Point(1130, 294);
+            this.AddImpactTag_button.Location = new System.Drawing.Point(1124, 370);
             this.AddImpactTag_button.Name = "AddImpactTag_button";
             this.AddImpactTag_button.Size = new System.Drawing.Size(90, 21);
             this.AddImpactTag_button.TabIndex = 78;
@@ -517,7 +517,7 @@ namespace Event
             // 
             // AddImpactAttribute_button
             // 
-            this.AddImpactAttribute_button.Location = new System.Drawing.Point(1226, 294);
+            this.AddImpactAttribute_button.Location = new System.Drawing.Point(1220, 370);
             this.AddImpactAttribute_button.Name = "AddImpactAttribute_button";
             this.AddImpactAttribute_button.Size = new System.Drawing.Size(90, 21);
             this.AddImpactAttribute_button.TabIndex = 77;
@@ -529,7 +529,7 @@ namespace Event
             // 
             this.SubsequentImpactPlayerCharacterOrOtherEntities_groupBox.Controls.Add(this.SubsequentImpactPlayerCharacter_radioButton);
             this.SubsequentImpactPlayerCharacterOrOtherEntities_groupBox.Controls.Add(this.SubsequentImpactOtherEntities_radioButton);
-            this.SubsequentImpactPlayerCharacterOrOtherEntities_groupBox.Location = new System.Drawing.Point(1130, 318);
+            this.SubsequentImpactPlayerCharacterOrOtherEntities_groupBox.Location = new System.Drawing.Point(1124, 394);
             this.SubsequentImpactPlayerCharacterOrOtherEntities_groupBox.Name = "SubsequentImpactPlayerCharacterOrOtherEntities_groupBox";
             this.SubsequentImpactPlayerCharacterOrOtherEntities_groupBox.Size = new System.Drawing.Size(186, 53);
             this.SubsequentImpactPlayerCharacterOrOtherEntities_groupBox.TabIndex = 76;
@@ -563,7 +563,7 @@ namespace Event
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1233, 387);
+            this.label5.Location = new System.Drawing.Point(1227, 463);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(77, 12);
             this.label5.TabIndex = 75;
@@ -571,7 +571,7 @@ namespace Event
             // 
             // RemoveSubsequentData_button
             // 
-            this.RemoveSubsequentData_button.Location = new System.Drawing.Point(832, 348);
+            this.RemoveSubsequentData_button.Location = new System.Drawing.Point(826, 424);
             this.RemoveSubsequentData_button.Name = "RemoveSubsequentData_button";
             this.RemoveSubsequentData_button.Size = new System.Drawing.Size(90, 21);
             this.RemoveSubsequentData_button.TabIndex = 72;
@@ -581,21 +581,21 @@ namespace Event
             // 
             // SubsequentImpactEntitiyName_textBox
             // 
-            this.SubsequentImpactEntitiyName_textBox.Location = new System.Drawing.Point(1226, 402);
+            this.SubsequentImpactEntitiyName_textBox.Location = new System.Drawing.Point(1220, 478);
             this.SubsequentImpactEntitiyName_textBox.Name = "SubsequentImpactEntitiyName_textBox";
             this.SubsequentImpactEntitiyName_textBox.Size = new System.Drawing.Size(90, 21);
             this.SubsequentImpactEntitiyName_textBox.TabIndex = 71;
             // 
             // SubsequentName_textBox
             // 
-            this.SubsequentName_textBox.Location = new System.Drawing.Point(928, 321);
+            this.SubsequentName_textBox.Location = new System.Drawing.Point(922, 397);
             this.SubsequentName_textBox.Name = "SubsequentName_textBox";
             this.SubsequentName_textBox.Size = new System.Drawing.Size(90, 21);
             this.SubsequentName_textBox.TabIndex = 84;
             // 
             // ChangeSubsequentName_button
             // 
-            this.ChangeSubsequentName_button.Location = new System.Drawing.Point(832, 321);
+            this.ChangeSubsequentName_button.Location = new System.Drawing.Point(826, 397);
             this.ChangeSubsequentName_button.Name = "ChangeSubsequentName_button";
             this.ChangeSubsequentName_button.Size = new System.Drawing.Size(90, 21);
             this.ChangeSubsequentName_button.TabIndex = 83;
@@ -605,7 +605,7 @@ namespace Event
             // 
             // AddSubsequentData_button
             // 
-            this.AddSubsequentData_button.Location = new System.Drawing.Point(927, 348);
+            this.AddSubsequentData_button.Location = new System.Drawing.Point(921, 424);
             this.AddSubsequentData_button.Name = "AddSubsequentData_button";
             this.AddSubsequentData_button.Size = new System.Drawing.Size(90, 21);
             this.AddSubsequentData_button.TabIndex = 85;
@@ -616,7 +616,7 @@ namespace Event
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(832, 384);
+            this.label8.Location = new System.Drawing.Point(826, 460);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(77, 12);
             this.label8.TabIndex = 91;
@@ -624,14 +624,14 @@ namespace Event
             // 
             // SubsequentProbabilityFactor_textBox
             // 
-            this.SubsequentProbabilityFactor_textBox.Location = new System.Drawing.Point(928, 294);
+            this.SubsequentProbabilityFactor_textBox.Location = new System.Drawing.Point(922, 370);
             this.SubsequentProbabilityFactor_textBox.Name = "SubsequentProbabilityFactor_textBox";
             this.SubsequentProbabilityFactor_textBox.Size = new System.Drawing.Size(90, 21);
             this.SubsequentProbabilityFactor_textBox.TabIndex = 93;
             // 
             // ChangeProbabilityFactor_button
             // 
-            this.ChangeProbabilityFactor_button.Location = new System.Drawing.Point(832, 294);
+            this.ChangeProbabilityFactor_button.Location = new System.Drawing.Point(826, 370);
             this.ChangeProbabilityFactor_button.Name = "ChangeProbabilityFactor_button";
             this.ChangeProbabilityFactor_button.Size = new System.Drawing.Size(90, 21);
             this.ChangeProbabilityFactor_button.TabIndex = 92;
@@ -644,7 +644,7 @@ namespace Event
             this.SubsequentImpactList_listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.SubsequentImpactDetail});
             this.SubsequentImpactList_listView.HideSelection = false;
-            this.SubsequentImpactList_listView.Location = new System.Drawing.Point(1024, 321);
+            this.SubsequentImpactList_listView.Location = new System.Drawing.Point(1018, 397);
             this.SubsequentImpactList_listView.Name = "SubsequentImpactList_listView";
             this.SubsequentImpactList_listView.Size = new System.Drawing.Size(100, 223);
             this.SubsequentImpactList_listView.TabIndex = 94;
@@ -662,7 +662,7 @@ namespace Event
             // 
             this.AddOrRemoveTag_groupBox.Controls.Add(this.AddTag_radioButton);
             this.AddOrRemoveTag_groupBox.Controls.Add(this.RemoveTag_radioButton);
-            this.AddOrRemoveTag_groupBox.Location = new System.Drawing.Point(1130, 476);
+            this.AddOrRemoveTag_groupBox.Location = new System.Drawing.Point(1124, 552);
             this.AddOrRemoveTag_groupBox.Name = "AddOrRemoveTag_groupBox";
             this.AddOrRemoveTag_groupBox.Size = new System.Drawing.Size(186, 68);
             this.AddOrRemoveTag_groupBox.TabIndex = 71;
@@ -695,14 +695,14 @@ namespace Event
             // 
             // SubsequentImpactTagOrAttributeName_textBox
             // 
-            this.SubsequentImpactTagOrAttributeName_textBox.Location = new System.Drawing.Point(1226, 429);
+            this.SubsequentImpactTagOrAttributeName_textBox.Location = new System.Drawing.Point(1220, 505);
             this.SubsequentImpactTagOrAttributeName_textBox.Name = "SubsequentImpactTagOrAttributeName_textBox";
             this.SubsequentImpactTagOrAttributeName_textBox.Size = new System.Drawing.Size(90, 21);
             this.SubsequentImpactTagOrAttributeName_textBox.TabIndex = 100;
             // 
             // ChangeAndSaveSubsequentImpactTagOrAttributeName_button
             // 
-            this.ChangeAndSaveSubsequentImpactTagOrAttributeName_button.Location = new System.Drawing.Point(1130, 429);
+            this.ChangeAndSaveSubsequentImpactTagOrAttributeName_button.Location = new System.Drawing.Point(1124, 505);
             this.ChangeAndSaveSubsequentImpactTagOrAttributeName_button.Name = "ChangeAndSaveSubsequentImpactTagOrAttributeName_button";
             this.ChangeAndSaveSubsequentImpactTagOrAttributeName_button.Size = new System.Drawing.Size(90, 21);
             this.ChangeAndSaveSubsequentImpactTagOrAttributeName_button.TabIndex = 99;
@@ -712,14 +712,14 @@ namespace Event
             // 
             // ImpactAttributeValue_textBox
             // 
-            this.ImpactAttributeValue_textBox.Location = new System.Drawing.Point(1226, 456);
+            this.ImpactAttributeValue_textBox.Location = new System.Drawing.Point(1220, 532);
             this.ImpactAttributeValue_textBox.Name = "ImpactAttributeValue_textBox";
             this.ImpactAttributeValue_textBox.Size = new System.Drawing.Size(90, 21);
             this.ImpactAttributeValue_textBox.TabIndex = 102;
             // 
             // ChangeAndSaveImpactAttributeValue_button
             // 
-            this.ChangeAndSaveImpactAttributeValue_button.Location = new System.Drawing.Point(1130, 456);
+            this.ChangeAndSaveImpactAttributeValue_button.Location = new System.Drawing.Point(1124, 532);
             this.ChangeAndSaveImpactAttributeValue_button.Name = "ChangeAndSaveImpactAttributeValue_button";
             this.ChangeAndSaveImpactAttributeValue_button.Size = new System.Drawing.Size(90, 21);
             this.ChangeAndSaveImpactAttributeValue_button.TabIndex = 101;
@@ -729,14 +729,14 @@ namespace Event
             // 
             // Bigger_textBox
             // 
-            this.Bigger_textBox.Location = new System.Drawing.Point(1216, 240);
+            this.Bigger_textBox.Location = new System.Drawing.Point(1210, 316);
             this.Bigger_textBox.Name = "Bigger_textBox";
             this.Bigger_textBox.Size = new System.Drawing.Size(90, 21);
             this.Bigger_textBox.TabIndex = 104;
             // 
             // ChangeAndSaveBigger_button
             // 
-            this.ChangeAndSaveBigger_button.Location = new System.Drawing.Point(1120, 240);
+            this.ChangeAndSaveBigger_button.Location = new System.Drawing.Point(1114, 316);
             this.ChangeAndSaveBigger_button.Name = "ChangeAndSaveBigger_button";
             this.ChangeAndSaveBigger_button.Size = new System.Drawing.Size(90, 21);
             this.ChangeAndSaveBigger_button.TabIndex = 103;
@@ -746,14 +746,14 @@ namespace Event
             // 
             // Smaller_textBox
             // 
-            this.Smaller_textBox.Location = new System.Drawing.Point(1216, 267);
+            this.Smaller_textBox.Location = new System.Drawing.Point(1210, 343);
             this.Smaller_textBox.Name = "Smaller_textBox";
             this.Smaller_textBox.Size = new System.Drawing.Size(90, 21);
             this.Smaller_textBox.TabIndex = 106;
             // 
             // ChangeAndSaveSmaller_button
             // 
-            this.ChangeAndSaveSmaller_button.Location = new System.Drawing.Point(1120, 267);
+            this.ChangeAndSaveSmaller_button.Location = new System.Drawing.Point(1114, 343);
             this.ChangeAndSaveSmaller_button.Name = "ChangeAndSaveSmaller_button";
             this.ChangeAndSaveSmaller_button.Size = new System.Drawing.Size(90, 21);
             this.ChangeAndSaveSmaller_button.TabIndex = 105;
@@ -763,7 +763,7 @@ namespace Event
             // 
             // ChangeAndSaveEntitiyName_button
             // 
-            this.ChangeAndSaveEntitiyName_button.Location = new System.Drawing.Point(1226, 93);
+            this.ChangeAndSaveEntitiyName_button.Location = new System.Drawing.Point(1220, 169);
             this.ChangeAndSaveEntitiyName_button.Name = "ChangeAndSaveEntitiyName_button";
             this.ChangeAndSaveEntitiyName_button.Size = new System.Drawing.Size(80, 21);
             this.ChangeAndSaveEntitiyName_button.TabIndex = 107;
@@ -773,7 +773,7 @@ namespace Event
             // 
             // ChangeAndSaveOptionText_button
             // 
-            this.ChangeAndSaveOptionText_button.Location = new System.Drawing.Point(540, 119);
+            this.ChangeAndSaveOptionText_button.Location = new System.Drawing.Point(534, 195);
             this.ChangeAndSaveOptionText_button.Name = "ChangeAndSaveOptionText_button";
             this.ChangeAndSaveOptionText_button.Size = new System.Drawing.Size(80, 21);
             this.ChangeAndSaveOptionText_button.TabIndex = 108;
@@ -783,7 +783,7 @@ namespace Event
             // 
             // ChangeAndSaveEventText_button
             // 
-            this.ChangeAndSaveEventText_button.Location = new System.Drawing.Point(233, 119);
+            this.ChangeAndSaveEventText_button.Location = new System.Drawing.Point(227, 195);
             this.ChangeAndSaveEventText_button.Name = "ChangeAndSaveEventText_button";
             this.ChangeAndSaveEventText_button.Size = new System.Drawing.Size(80, 21);
             this.ChangeAndSaveEventText_button.TabIndex = 109;
@@ -793,7 +793,7 @@ namespace Event
             // 
             // ChangeAndSaveIfComfirmText_button
             // 
-            this.ChangeAndSaveIfComfirmText_button.Location = new System.Drawing.Point(540, 348);
+            this.ChangeAndSaveIfComfirmText_button.Location = new System.Drawing.Point(534, 424);
             this.ChangeAndSaveIfComfirmText_button.Name = "ChangeAndSaveIfComfirmText_button";
             this.ChangeAndSaveIfComfirmText_button.Size = new System.Drawing.Size(80, 21);
             this.ChangeAndSaveIfComfirmText_button.TabIndex = 110;
@@ -803,7 +803,7 @@ namespace Event
             // 
             // ChangeAndSaveSubsequentText_button
             // 
-            this.ChangeAndSaveSubsequentText_button.Location = new System.Drawing.Point(928, 375);
+            this.ChangeAndSaveSubsequentText_button.Location = new System.Drawing.Point(922, 451);
             this.ChangeAndSaveSubsequentText_button.Name = "ChangeAndSaveSubsequentText_button";
             this.ChangeAndSaveSubsequentText_button.Size = new System.Drawing.Size(90, 21);
             this.ChangeAndSaveSubsequentText_button.TabIndex = 111;
@@ -813,7 +813,7 @@ namespace Event
             // 
             // ChangeAndSaveSubsequentImpactEntitiyName__button
             // 
-            this.ChangeAndSaveSubsequentImpactEntitiyName__button.Location = new System.Drawing.Point(1130, 402);
+            this.ChangeAndSaveSubsequentImpactEntitiyName__button.Location = new System.Drawing.Point(1124, 478);
             this.ChangeAndSaveSubsequentImpactEntitiyName__button.Name = "ChangeAndSaveSubsequentImpactEntitiyName__button";
             this.ChangeAndSaveSubsequentImpactEntitiyName__button.Size = new System.Drawing.Size(90, 21);
             this.ChangeAndSaveSubsequentImpactEntitiyName__button.TabIndex = 112;
@@ -823,7 +823,7 @@ namespace Event
             // 
             // SaveEventListDataInFile_button
             // 
-            this.SaveEventListDataInFile_button.Location = new System.Drawing.Point(12, 551);
+            this.SaveEventListDataInFile_button.Location = new System.Drawing.Point(6, 627);
             this.SaveEventListDataInFile_button.Name = "SaveEventListDataInFile_button";
             this.SaveEventListDataInFile_button.Size = new System.Drawing.Size(100, 21);
             this.SaveEventListDataInFile_button.TabIndex = 113;
@@ -833,14 +833,14 @@ namespace Event
             // 
             // FilePath_textBox
             // 
-            this.FilePath_textBox.Location = new System.Drawing.Point(118, 552);
+            this.FilePath_textBox.Location = new System.Drawing.Point(112, 628);
             this.FilePath_textBox.Name = "FilePath_textBox";
             this.FilePath_textBox.Size = new System.Drawing.Size(502, 21);
             this.FilePath_textBox.TabIndex = 114;
             // 
             // OpenFolderFile_button
             // 
-            this.OpenFolderFile_button.Location = new System.Drawing.Point(626, 552);
+            this.OpenFolderFile_button.Location = new System.Drawing.Point(620, 628);
             this.OpenFolderFile_button.Name = "OpenFolderFile_button";
             this.OpenFolderFile_button.Size = new System.Drawing.Size(95, 21);
             this.OpenFolderFile_button.TabIndex = 115;
@@ -850,7 +850,7 @@ namespace Event
             // 
             // OpenEventListJsonFile_button
             // 
-            this.OpenEventListJsonFile_button.Location = new System.Drawing.Point(731, 552);
+            this.OpenEventListJsonFile_button.Location = new System.Drawing.Point(725, 628);
             this.OpenEventListJsonFile_button.Name = "OpenEventListJsonFile_button";
             this.OpenEventListJsonFile_button.Size = new System.Drawing.Size(95, 21);
             this.OpenEventListJsonFile_button.TabIndex = 116;
@@ -860,7 +860,7 @@ namespace Event
             // 
             // EventText_textBox
             // 
-            this.EventText_textBox.Location = new System.Drawing.Point(118, 146);
+            this.EventText_textBox.Location = new System.Drawing.Point(112, 222);
             this.EventText_textBox.Multiline = true;
             this.EventText_textBox.Name = "EventText_textBox";
             this.EventText_textBox.Size = new System.Drawing.Size(195, 371);
@@ -872,7 +872,7 @@ namespace Event
             this.DebugID,
             this.DebugText});
             this.Debug_listView.HideSelection = false;
-            this.Debug_listView.Location = new System.Drawing.Point(12, 579);
+            this.Debug_listView.Location = new System.Drawing.Point(6, 655);
             this.Debug_listView.Name = "Debug_listView";
             this.Debug_listView.Size = new System.Drawing.Size(1304, 97);
             this.Debug_listView.TabIndex = 120;
@@ -891,7 +891,7 @@ namespace Event
             // 
             // ClearDebugListView_button
             // 
-            this.ClearDebugListView_button.Location = new System.Drawing.Point(1241, 552);
+            this.ClearDebugListView_button.Location = new System.Drawing.Point(1235, 628);
             this.ClearDebugListView_button.Name = "ClearDebugListView_button";
             this.ClearDebugListView_button.Size = new System.Drawing.Size(75, 21);
             this.ClearDebugListView_button.TabIndex = 121;
@@ -903,7 +903,7 @@ namespace Event
             // 
             this.SelectedEvent_label.AutoSize = true;
             this.SelectedEvent_label.Font = new System.Drawing.Font("宋体", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.SelectedEvent_label.Location = new System.Drawing.Point(12, 9);
+            this.SelectedEvent_label.Location = new System.Drawing.Point(6, 85);
             this.SelectedEvent_label.Name = "SelectedEvent_label";
             this.SelectedEvent_label.Size = new System.Drawing.Size(64, 27);
             this.SelectedEvent_label.TabIndex = 122;
@@ -911,7 +911,7 @@ namespace Event
             // 
             // OptionText_textBox
             // 
-            this.OptionText_textBox.Location = new System.Drawing.Point(425, 146);
+            this.OptionText_textBox.Location = new System.Drawing.Point(419, 222);
             this.OptionText_textBox.Multiline = true;
             this.OptionText_textBox.Name = "OptionText_textBox";
             this.OptionText_textBox.Size = new System.Drawing.Size(195, 180);
@@ -919,7 +919,7 @@ namespace Event
             // 
             // IfComfirmText_textBox
             // 
-            this.IfComfirmText_textBox.Location = new System.Drawing.Point(425, 375);
+            this.IfComfirmText_textBox.Location = new System.Drawing.Point(419, 451);
             this.IfComfirmText_textBox.Multiline = true;
             this.IfComfirmText_textBox.Name = "IfComfirmText_textBox";
             this.IfComfirmText_textBox.Size = new System.Drawing.Size(195, 169);
@@ -929,7 +929,7 @@ namespace Event
             // 
             this.SelectedOption_label.AutoSize = true;
             this.SelectedOption_label.Font = new System.Drawing.Font("宋体", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.SelectedOption_label.Location = new System.Drawing.Point(425, 9);
+            this.SelectedOption_label.Location = new System.Drawing.Point(419, 85);
             this.SelectedOption_label.Name = "SelectedOption_label";
             this.SelectedOption_label.Size = new System.Drawing.Size(64, 27);
             this.SelectedOption_label.TabIndex = 125;
@@ -939,7 +939,7 @@ namespace Event
             // 
             this.SelectedPrerequisite_label.AutoSize = true;
             this.SelectedPrerequisite_label.Font = new System.Drawing.Font("宋体", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.SelectedPrerequisite_label.Location = new System.Drawing.Point(932, 8);
+            this.SelectedPrerequisite_label.Location = new System.Drawing.Point(926, 84);
             this.SelectedPrerequisite_label.Name = "SelectedPrerequisite_label";
             this.SelectedPrerequisite_label.Size = new System.Drawing.Size(64, 27);
             this.SelectedPrerequisite_label.TabIndex = 126;
@@ -947,7 +947,7 @@ namespace Event
             // 
             // ChangePrerequisiteName_button
             // 
-            this.ChangePrerequisiteName_button.Location = new System.Drawing.Point(928, 65);
+            this.ChangePrerequisiteName_button.Location = new System.Drawing.Point(922, 141);
             this.ChangePrerequisiteName_button.Name = "ChangePrerequisiteName_button";
             this.ChangePrerequisiteName_button.Size = new System.Drawing.Size(90, 21);
             this.ChangePrerequisiteName_button.TabIndex = 127;
@@ -957,14 +957,14 @@ namespace Event
             // 
             // PrerequisiteName_textBox
             // 
-            this.PrerequisiteName_textBox.Location = new System.Drawing.Point(1024, 65);
+            this.PrerequisiteName_textBox.Location = new System.Drawing.Point(1018, 141);
             this.PrerequisiteName_textBox.Name = "PrerequisiteName_textBox";
             this.PrerequisiteName_textBox.Size = new System.Drawing.Size(90, 21);
             this.PrerequisiteName_textBox.TabIndex = 128;
             // 
             // RemoveSubsequentImpactData_button
             // 
-            this.RemoveSubsequentImpactData_button.Location = new System.Drawing.Point(1130, 375);
+            this.RemoveSubsequentImpactData_button.Location = new System.Drawing.Point(1124, 451);
             this.RemoveSubsequentImpactData_button.Name = "RemoveSubsequentImpactData_button";
             this.RemoveSubsequentImpactData_button.Size = new System.Drawing.Size(90, 21);
             this.RemoveSubsequentImpactData_button.TabIndex = 129;
@@ -974,7 +974,7 @@ namespace Event
             // 
             // SubsequentText_textBox
             // 
-            this.SubsequentText_textBox.Location = new System.Drawing.Point(832, 402);
+            this.SubsequentText_textBox.Location = new System.Drawing.Point(826, 478);
             this.SubsequentText_textBox.Multiline = true;
             this.SubsequentText_textBox.Name = "SubsequentText_textBox";
             this.SubsequentText_textBox.Size = new System.Drawing.Size(186, 142);
@@ -984,7 +984,7 @@ namespace Event
             // 
             this.SelectedSubsequent_label.AutoSize = true;
             this.SelectedSubsequent_label.Font = new System.Drawing.Font("宋体", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.SelectedSubsequent_label.Location = new System.Drawing.Point(626, 291);
+            this.SelectedSubsequent_label.Location = new System.Drawing.Point(620, 367);
             this.SelectedSubsequent_label.Name = "SelectedSubsequent_label";
             this.SelectedSubsequent_label.Size = new System.Drawing.Size(82, 27);
             this.SelectedSubsequent_label.TabIndex = 131;
@@ -994,7 +994,7 @@ namespace Event
             // 
             this.SelectedSubsequentImpact_label.AutoSize = true;
             this.SelectedSubsequentImpact_label.Font = new System.Drawing.Font("宋体", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.SelectedSubsequentImpact_label.Location = new System.Drawing.Point(1024, 291);
+            this.SelectedSubsequentImpact_label.Location = new System.Drawing.Point(1018, 367);
             this.SelectedSubsequentImpact_label.Name = "SelectedSubsequentImpact_label";
             this.SelectedSubsequentImpact_label.Size = new System.Drawing.Size(82, 27);
             this.SelectedSubsequentImpact_label.TabIndex = 132;
@@ -1002,7 +1002,7 @@ namespace Event
             // 
             // FileName_textBox
             // 
-            this.FileName_textBox.Location = new System.Drawing.Point(832, 552);
+            this.FileName_textBox.Location = new System.Drawing.Point(826, 628);
             this.FileName_textBox.Name = "FileName_textBox";
             this.FileName_textBox.Size = new System.Drawing.Size(186, 21);
             this.FileName_textBox.TabIndex = 133;
@@ -1012,7 +1012,7 @@ namespace Event
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1323, 683);
+            this.ClientSize = new System.Drawing.Size(1323, 758);
             this.Controls.Add(this.FileName_textBox);
             this.Controls.Add(this.SelectedSubsequentImpact_label);
             this.Controls.Add(this.SelectedSubsequent_label);

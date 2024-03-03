@@ -1,5 +1,7 @@
 ﻿using Event.Data;
 using Event.Manager;
+using MaterialSkin;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,8 +18,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Event
 {
-    public partial class Main : Form
+    public partial class Main : MaterialForm
     {
+
         public List<EventData> eventDatas = new List<EventData>();
 
         public bool ifSelectedEvent;
@@ -140,6 +143,13 @@ namespace Event
         public Main()
         {
             InitializeComponent();
+
+
+            var materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.AddFormToManage(this);
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+
         }
         private void Main_Load(object sender, EventArgs e)
         {
