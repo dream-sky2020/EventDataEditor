@@ -34,4 +34,4 @@
 
 还有对各实体的影响
 
-![image-20240302181846628](D:\C#Winform\EventDataEditor\image-20240302181846628.png)
+![alt text](https://github.com/dream-sky2020/EventDataEditor/blob/master/image-20240302181846628.png)https://github.com/dream-sky2020/EventDataEditor/blob/master/image-20240302181846628.png)
